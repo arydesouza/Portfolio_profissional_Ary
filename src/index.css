@@ -55,10 +55,29 @@
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  position: relative;
+  background: linear-gradient(135deg, #00d4ff 0%, #00cea8 50%, #bf61ff 100%);
+  background: -webkit-linear-gradient(135deg, #00d4ff 0%, #00cea8 50%, #bf61ff 100%);
 }
+
+.green-pink-gradient::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(135deg, #00d4ff 0%, #00cea8 30%, #bf61ff 70%, #ff6bff 100%);
+  background: -webkit-linear-gradient(135deg, #00d4ff 0%, #00cea8 30%, #bf61ff 70%, #ff6bff 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  box-shadow: 
+    0 0 10px rgba(0, 212, 255, 0.4),
+    0 0 20px rgba(0, 206, 168, 0.3),
+    0 0 30px rgba(191, 97, 255, 0.2);
+  pointer-events: none;
+}
+
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
