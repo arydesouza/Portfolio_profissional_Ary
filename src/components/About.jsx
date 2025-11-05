@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -36,14 +37,22 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div 
+    className="flex flex-col gap-10  w-full"
+    style={{ 
+      paddingLeft: 'clamp(1.5rem, 6vw, 6rem)', 
+      paddingRight: 'clamp(1.5rem, 4vw, 4rem)' 
+    }}
+    >
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)}
-      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      <motion.p 
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        style={{ paddingLeft: 0, paddingRight: 0 }}
       >
         Sou um desenvolvedor Front-end com 3 anos de
         experiência, entregando resultados reais por meio da
@@ -55,16 +64,17 @@ const About = () => {
         Back-end com Node.js, Spring Boot, Java,
         JavaScript e Python, aplicando essas tecnologias em
         meus projetos.
+
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index= {index} {...service} />
         
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
-export default About
+export default SectionWrapper(About, "about");
