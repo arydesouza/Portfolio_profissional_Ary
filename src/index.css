@@ -17,7 +17,6 @@
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
@@ -25,9 +24,13 @@
 }
 
 .hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
+  position: absolute;
+  top: -100px; /* offset para navbar fixa */
+  left: 0;
+  height: 0;
+  width: 100%;
   display: block;
+  pointer-events: none;
 }
 
 .black-gradient {

@@ -37,13 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <div 
-    className="flex flex-col gap-10  w-full"
-    style={{ 
-      paddingLeft: 'clamp(1.5rem, 6vw, 6rem)', 
-      paddingRight: 'clamp(1.5rem, 4vw, 4rem)' 
-    }}
-    >
+    <div className="flex flex-col gap-10">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -51,8 +45,7 @@ const About = () => {
 
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        style={{ paddingLeft: 0, paddingRight: 0 }}
+        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
         Sou um desenvolvedor Front-end com 3 anos de
         experiência, entregando resultados reais por meio da
@@ -67,7 +60,7 @@ const About = () => {
 
       </motion.p>
 
-      <div className="flex flex-wrap gap-10 justify-center">
+      <div className="flex flex-wrap gap-10 justify-center items-center w-full">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index= {index} {...service} />
         
