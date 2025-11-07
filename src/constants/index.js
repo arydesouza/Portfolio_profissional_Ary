@@ -19,25 +19,28 @@ import {
   starbucks,
   tesla,
   shopify,
+  PTI,
+  focus,
   carrent,
   jobit,
   tripguide,
   threejs,
+  freelancer,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiência",
   },
   {
     id: "contact",
-    title: "Contact",
-  },
+    title: "Contato",
+  },  
 ];
 
 const services = [
@@ -116,37 +119,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Desenvolvedor Fullstack",
+    company_name: "Parque Tecnológico de Itaipu (PTI)",
+    icon: PTI,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Fevereiro 2023 - Abril 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Desenvolvi e mantive o sistema web de gestão de estoque do LabMaker, atuando no front-end com HTML, CSS e JavaScript e no back-end com MySQL.",
+      "Modelagem e implementação do banco de dados para garantir armazenamento seguro e rastreável das movimentações.",
+      "Criação de funcionalidades de cadastro, controle de empréstimos, devoluções e níveis de acesso para diferentes usuários..",
+      "Digitalização total do processo de controle de estoque, reduzindo em cerca de 70% o tempo gasto no registro de empréstimos e devoluções..",
+      "Eliminação de erros manuais ao substituir formulários físicos e planilhas dispersas por um sistema integrado.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Estagiário em Suporte",
+    company_name: "Focus Technology",
+    icon: focus,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Junho 2023 - Julho 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Atuava na linha de frente do suporte técnico, lidando diariamente com clientes internacionais e garantindo respostas rápidas e eficientes, em média, resolvia mais de 30 tickets por semana econseguia reduzir o tempo de resposta em cerca de 40%.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Desenvolvedor Front-end",
+    company_name: "Freelancer",
+    icon: freelancer,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Agosto 2024 - Atual",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
