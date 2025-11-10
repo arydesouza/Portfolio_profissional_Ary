@@ -11,10 +11,11 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  angular,
   git,
   figma,
   docker,
+  mysql,
   meta,
   starbucks,
   tesla,
@@ -96,8 +97,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "Three JS",
@@ -115,6 +116,11 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+
 ];
 
 const experiences = [
@@ -133,16 +139,15 @@ const experiences = [
     ],
   },
   {
-    title: "Estagiário em Suporte",
+    title: "Estágio em Implementação de SaaS",
     company_name: "Focus Technology",
     icon: focus,
     iconBg: "#E6DEDD",
     date: "Junho 2023 - Julho 2024",
     points: [
       "Atuava na linha de frente do suporte técnico, lidando diariamente com clientes internacionais e garantindo respostas rápidas e eficientes, em média, resolvia mais de 30 tickets por semana econseguia reduzir o tempo de resposta em cerca de 40%.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implantei e configurei soluções SaaS da Freshworks para vários clientes, personalizando os fluxos de trabalho e as automações da plataforma para atender a requisitos de negócios específicos.",
+      "Atuei como ponto de contato técnico para os clientes, solucionando problemas e garantindo uma adoção bem-sucedida da plataforma.",
     ],
   },
   {
@@ -158,19 +163,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
