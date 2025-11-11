@@ -16,6 +16,8 @@ import {
   figma,
   docker,
   mysql,
+  amazon_aws,
+  next_js,
   meta,
   starbucks,
   tesla,
@@ -58,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Engenheiro de Software",
+    title: "Desenvolvedor Web",
     icon: creator,
   },
 ];
@@ -109,8 +111,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "next_js",
+    icon: next_js,
   },
   {
     name: "docker",
@@ -119,6 +121,10 @@ const technologies = [
   {
     name: "mysql",
     icon: mysql,
+  },
+  {
+    name: "amazon_aws",
+    icon: amazon_aws,
   },
 
 ];
@@ -129,7 +135,7 @@ const experiences = [
     company_name: "Parque Tecnológico de Itaipu (PTI)",
     icon: PTI,
     iconBg: "#383E56",
-    date: "Fevereiro 2023 - Abril 2023",
+    date: "Fevereiro 2023 - Junho 2023",
     points: [
       "Desenvolvi e mantive o sistema web de gestão de estoque do LabMaker, atuando no front-end com HTML, CSS e JavaScript e no back-end com MySQL.",
       "Modelagem e implementação do banco de dados para garantir armazenamento seguro e rastreável das movimentações.",
@@ -148,6 +154,7 @@ const experiences = [
       "Atuava na linha de frente do suporte técnico, lidando diariamente com clientes internacionais e garantindo respostas rápidas e eficientes, em média, resolvia mais de 30 tickets por semana econseguia reduzir o tempo de resposta em cerca de 40%.",
       "Implantei e configurei soluções SaaS da Freshworks para vários clientes, personalizando os fluxos de trabalho e as automações da plataforma para atender a requisitos de negócios específicos.",
       "Atuei como ponto de contato técnico para os clientes, solucionando problemas e garantindo uma adoção bem-sucedida da plataforma.",
+      "No desenvolvimento, criava interfaces web intuitivas com React.js, sempre com foco na usabilidade e na experiência do usuário, o que ajudou a aumentar o engajamento em aproximadamente 15%"
     ],
   },
   {

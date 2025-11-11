@@ -10,6 +10,8 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import mysql from "./tech/mysql.png";
+import amazon_aws from "./tech/amazon_aws.png"
+import next_js from "./tech/next_js.png"
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -46,6 +48,8 @@ export {
   css,
   docker,
   mysql,
+  amazon_aws,
+  next_js,
   figma,
   git,
   html,
