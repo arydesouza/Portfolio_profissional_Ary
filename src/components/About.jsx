@@ -39,8 +39,8 @@ const About = () => {
   return (
     <div className="flex flex-col gap-10">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Sobre mim</h2>
       </motion.div>
 
       <motion.p 

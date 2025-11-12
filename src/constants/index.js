@@ -115,17 +115,10 @@ const technologies = [
     icon: next_js,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
-  {
     name: "mysql",
     icon: mysql,
   },
-  {
-    name: "amazon_aws",
-    icon: amazon_aws,
-  },
+
 
 ];
 
@@ -164,10 +157,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Agosto 2024 - Atual",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Como desenvolvedor Front-end freelancer, criei interfaces modernas e performáticas com React, Angular e TypeScript, focando em usabilidade e desempenho do usuário.",
+      "No projeto WaveMotors, otimizei o front-end de uma plataforma de e-commerce, melhorando a visibilidade dos anúncios em 35% e melhorei a experiência de compra e venda, impactando diretamente cerca de 10 usuários nos testes iniciais.",
+      "Já no Divide.ai, desenvolvi um app de divisão de contas com React, TypeScript, Vite, TailwindCSS e Lovable, reduzindo o tempo de processamento em 60%.",
     ],
   },
 
