@@ -7,19 +7,61 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn} from '../utils/motion';
 
+//template_d65b7m4
+//service_hyxjsgs
+//2V4VD6o23jLlLAbYf
 
 const Contact = () => {
   const formRef = useRef();
-   const [form, setForm] = useState ({
+  const [form, setForm] = useState ({
     name: "",
     email: "",
     message: "",
    })
    const [loading, setLoading] = useState(false);
 
-   const handleChange = (e) => {};
+   const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
 
-   const handleSubmit = (e) => {}
+    setForm({ ...form, [e.target.name]: e.target.value });
+   }
+
+   const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_hyxjsgs',
+      'template_d65b7m4',
+      {
+        from_name: form.name,
+        to_name: 'Ary',
+        from_email: form.email,
+        to_email: 'ariizinho02@gmail.com',
+        message: form.message,
+      },
+      '2V4VD6o23jLlLAbYf'
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Obrigado por entrar em contato! Vou responder o mais breve possível.');
+    })
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+
+    ((error) => {
+      setLoading(false);
+
+      console.log(error);
+      
+      alert('Ocorreu um erro ao enviar o email. Por favor, tente novamente.');
+    });
+  }
 
   return (
 
