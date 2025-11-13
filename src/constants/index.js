@@ -25,6 +25,8 @@ import {
   PTI,
   focus,
   carrent,
+  wavemotors,
+  divideai,
   jobit,
   tripguide,
   threejs,
@@ -157,7 +159,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Agosto 2024 - Atual",
     points: [
-      "Como desenvolvedor Front-end freelancer, atuei em projetos pessoais e para demandantes externos criando interfaces modernas e performáticas com React, Angular e TypeScript, focando em usabilidade e desempenho do usuário.",
+      "Como desenvolvedor Front-end freelancer, atuei em projetos pessoais e para demandantes externos, criando interfaces modernas e performáticas com React, Angular e TypeScript, focando em usabilidade e desempenho do usuário.",
       "No projeto WaveMotors, otimizei o front-end de uma plataforma de e-commerce, melhorando a visibilidade dos anúncios em 35% e melhorei a experiência de compra e venda, impactando diretamente cerca de 10 usuários nos testes iniciais.",
       "Já no Divide.ai, desenvolvi um app de divisão de contas com React, TypeScript, Vite, TailwindCSS e Lovable, reduzindo o tempo de processamento em 60%.",
     ],
@@ -194,46 +196,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "WaveMotors",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Uma plataforma de e-commerce para compra e venda de veículos novos e seminovos, com sistema de busca, filtros de marcas, modelo e acessórios, favoritos, propostas de venda, entre outras funcionalidades.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: wavemotors,
     source_code_link: "https://github.com/arydesouza",
+    live_demo_link: "https://frontendwavemotors.vercel.app/home",
   },
   {
-    name: "Job IT",
+    name: "Divide.ai",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicativo mobile para divisão de contas entre amigos, desde o pagamento de uma conta até a divisão de contas de airbnb emuma viagem, com sistema de login, cadastro, divisão de contas, histórico de transações, entre outras funcionalidades.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: divideai,
     source_code_link: "https://github.com/arydesouza",
+    live_demo_link: "https://preview--spend-split-pal.lovable.app/",
   },
   {
     name: "Trip Guide",
@@ -255,6 +259,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/arydesouza",
+    live_demo_link: "https://sua-demo-tripguide.com",
   },
 ];
 

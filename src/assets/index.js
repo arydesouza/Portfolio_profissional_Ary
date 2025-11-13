@@ -33,6 +33,8 @@ import focus from "./company/focus.png";
 import freelancer from "./company/freelancer.png"
 
 import carrent from "./carrent.png";
+import wavemotors from "./wavemotors.jpg";
+import divideai from "./divideai.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -69,6 +71,8 @@ export {
   focus,
   freelancer,
   carrent,
+  wavemotors,
+  divideai,
   jobit,
   tripguide,
 };

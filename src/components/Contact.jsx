@@ -48,7 +48,7 @@ const Contact = () => {
       alert('Obrigado por entrar em contato! Vou responder o mais breve possível.');
     })
 
-      setForm({
+      setForm({ 
         name: "",
         email: "",
         message: "",
@@ -58,7 +58,7 @@ const Contact = () => {
       setLoading(false);
 
       console.log(error);
-      
+
       alert('Ocorreu um erro ao enviar o email. Por favor, tente novamente.');
     });
   }
