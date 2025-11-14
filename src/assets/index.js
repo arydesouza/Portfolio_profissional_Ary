@@ -35,8 +35,13 @@ import freelancer from "./company/freelancer.png"
 import carrent from "./carrent.png";
 import wavemotors from "./wavemotors.jpg";
 import divideai from "./divideai.jpeg";
+import sneaker from "./sneaker.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import leo from "./leo.jpeg";
+import octavio from "./octavio.jpeg";
+import vini from "./vini.jpeg";
 
 export {
   logo,
@@ -73,6 +78,10 @@ export {
   carrent,
   wavemotors,
   divideai,
+  sneaker,
   jobit,
   tripguide,
+  leo,
+  octavio,
+  vini,
 };

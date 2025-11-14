@@ -27,10 +27,17 @@ import {
   carrent,
   wavemotors,
   divideai,
+  sneaker,
   jobit,
   tripguide,
   threejs,
   freelancer,
+  leo,
+  octavio,
+  vini,
+
+
+
 } from "../assets";
 
 export const navLinks = [
@@ -170,27 +177,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sempre demonstrou um compromisso excepcional, independentemente do tamanho ou nível do projeto em que está trabalhando. Ele entrega com dedicação, cuidado e foco total na qualidade.",
+    name: "Leonardo Calegario",
+    designation: "Software Engineer",
+    company: "Inviolável",
+    image: leo
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Fui dupla do Ary no nosso TCC de Engenharia de Software e pude ver de perto o seu altíssimo nível de entendimento e seriedade. Ele encara cada etapa com profissionalismo e precisão.",
+    name: "Octavio Blanco",
+    designation: "Software Engineer",
+    company: "Versat Platform",
+    image: octavio
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "A criatividade dele é impressionante, assim como sua capacidade de se adaptar rapidamente a qualquer problema. Ele sempre encontra soluções inteligentes e eficientes para qualquer desafio.",
+    name: "Vinicius Casseb",
+    designation: "Data Analyst",
+    company: "NTT Data",
+    image: vini
   },
 ];
 
@@ -214,7 +221,7 @@ const projects = [
       },
     ],
     image: wavemotors,
-    source_code_link: "https://github.com/arydesouza",
+    source_code_link: "https://github.com/arydesouza/frontend_ecommerce_wavemotors",
     live_demo_link: "https://frontendwavemotors.vercel.app/home",
   },
   {
@@ -236,30 +243,30 @@ const projects = [
       },
     ],
     image: divideai,
-    source_code_link: "https://github.com/arydesouza",
+    source_code_link: "https://github.com/leoocalegario/spend-split-pal",
     live_demo_link: "https://preview--spend-split-pal.lovable.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Sneaker Store",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Um e-commerce de compra e venda de tênis, com design moderno e minimalista. Apresenta produtos com imagens de alta qualidade, além de navegação simples. Tudo é organizado para oferecer uma experiência de compra rápida e intuitiva..",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Html",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/arydesouza",
-    live_demo_link: "https://sua-demo-tripguide.com",
+    image: sneaker,
+    source_code_link: "https://github.com/arydesouza/e-commerce",
+    live_demo_link: "https://github.com/arydesouza/e-commerce",
   },
 ];
 
